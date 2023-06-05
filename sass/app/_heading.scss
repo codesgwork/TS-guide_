@@ -1,0 +1,26 @@
+.heading {
+  margin: 2rem 0;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  .title {
+    margin-right: 2rem;
+    align-self: flex-start;
+  }
+}
+
+.svg-icon {
+  // display: inline-block;
+  // width: 5rem;
+  // height: 5rem;
+  stroke-width: 1;
+  stroke: #00ddff;
+  fill: currentColor;
+
+  &-forward {
+    width: 5rem;
+    height: 5rem;
+    fill: #00ddff;
+    margin-right: 2rem;
+  }
+}
